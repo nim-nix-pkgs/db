@@ -11,6 +11,7 @@
   inputs.src-db-1_1_0.ref   = "refs/tags/1.1.0";
   inputs.src-db-1_1_0.owner = "jlp765";
   inputs.src-db-1_1_0.repo  = "db";
+  inputs.src-db-1_1_0.dir   = "";
   inputs.src-db-1_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
